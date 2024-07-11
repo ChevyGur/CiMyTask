@@ -8,6 +8,7 @@ const pool = new Pool({
   host: db_host,
   port: db_port,
   database: db_name,
+  ssl:false
 });
 
 const createStatusTransportTable = async () => {

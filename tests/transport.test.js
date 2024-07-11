@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../app');
-const pool = require('../core/config_db');
+const {pool}  = require('../core/config_db');
 
 describe('Transport API', () => {
     let transportId;
