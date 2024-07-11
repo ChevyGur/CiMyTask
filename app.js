@@ -6,7 +6,7 @@ const statusTransportRouter = require('./routers/statusTransport');
 const { createStatusTransportTable } = require('./core/config_db');
 
 const app = express();
-// create_transports_table();
+
 require('dotenv').config();
 
 createStatusTransportTable();
