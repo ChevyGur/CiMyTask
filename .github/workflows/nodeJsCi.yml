@@ -16,7 +16,7 @@ jobs:
         node-version: '14'
 
     - name: 📦 Install dependencies
-      working-directory: Backend
+      # working-directory: Backend
       run: npm install
        
     - name: ✅ Run tests
