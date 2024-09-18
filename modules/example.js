@@ -9,5 +9,4 @@ const get_example_list = async function () {
     } finally {
     }
 };
-
 module.exports = get_example_list

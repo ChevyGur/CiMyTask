@@ -1,9 +1,9 @@
 on:
-  push:
-  pull_request:
+  push
+  # pull_request
 
 jobs:
-  test:
+  test: 
     runs-on: ubuntu-latest
 
     steps:
